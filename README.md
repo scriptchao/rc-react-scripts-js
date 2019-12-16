@@ -1,1 +1,1 @@
-## quick-ts-start
+## quick-js-start
