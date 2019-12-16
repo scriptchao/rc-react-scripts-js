@@ -886,11 +886,6 @@
   resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-12.12.17.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-12.12.17.tgz#191b71e7f4c325ee0fb23bc4a996477d92b8c39b"
   integrity sha1-GRtx5/TDJe4PsjvEqZZHfZK4w5s=
 
-"@types/node@^12.12.17":
-  version "12.12.17"
-  resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-12.12.17.tgz#191b71e7f4c325ee0fb23bc4a996477d92b8c39b"
-  integrity sha1-GRtx5/TDJe4PsjvEqZZHfZK4w5s=
-
 "@types/prop-types@*":
   version "15.7.3"
   resolved "https://registry.npm.taobao.org/@types/prop-types/download/@types/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
@@ -939,11 +934,6 @@
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
-
-"@types/webpack-env@^1.14.1":
-  version "1.14.1"
-  resolved "https://registry.npm.taobao.org/@types/webpack-env/download/@types/webpack-env-1.14.1.tgz#0d8a53f308f017c53a5ddc3d07f4d6fa76b790d7"
-  integrity sha1-DYpT8wjwF8U6Xdw9B/TW+na3kNc=
 
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
@@ -7333,11 +7323,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.npm.taobao.org/typedarray/download/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
-
-typescript@^3.7.3:
-  version "3.7.3"
-  resolved "https://registry.npm.taobao.org/typescript/download/typescript-3.7.3.tgz#b36840668a16458a7025b9eabfad11b66ab85c69"
-  integrity sha1-s2hAZooWRYpwJbnqv60Rtmq4XGk=
 
 ua-parser-js@^0.7.18:
   version "0.7.20"
