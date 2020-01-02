@@ -13,7 +13,7 @@
     "lib:js": "babel src/Main --out-dir lib --source-maps inline --copy-files",
     "analyzer": "node scripts/build.js --analyzer=true",
     "serve": "serve -s build",
-    "test": "node scripts/test.js --bail",
+    "test": "node scripts/test.js --bail --watch",
     "test-debug": "node --inspect-brk scripts/test.js --runInBand --bail",
     "coverage": "node scripts/test.js --bail --coverage"
   },
@@ -37,6 +37,7 @@
     "@babel/preset-env": "^7.7.6",
     "@babel/preset-react": "^7.7.4",
     "@babel/preset-typescript": "^7.7.4",
+    "@types/enzyme": "^3.10.4",
     "@types/jest": "^24.0.25",
     "@types/react": "^16.9.16",
     "@types/react-dom": "^16.9.4",
