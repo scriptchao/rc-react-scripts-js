@@ -1,30 +1,30 @@
 /**
  * Created by tony on 2019/2/21
  */
+const isEnvTest = process.env.NODE_ENV === 'test'
 
 module.exports = {
   "presets": [
-    [
-      "@babel/preset-env",
-      {
-        "targets": {
-          "browsers": [
-            ">0.2%",
-            "not dead",
-            "not ie <= 8"
-          ],
-        },
-      }
-    ],
-    ["@babel/preset-react",]
+    isEnvTest ?
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current",
+          }
+        }
+      ] :
+      ["@babel/preset-env"],
+    ["@babel/preset-react"]
   ],
   "plugins": [
     ["@babel/plugin-transform-destructuring"],
     ["@babel/plugin-proposal-decorators", {"legacy": true}],
     ["@babel/plugin-proposal-class-properties", {"loose": true}],
-    ["@babel/plugin-transform-runtime", {
-      "corejs": 3
-    }],
+    isEnvTest ? false :
+      ["@babel/plugin-transform-runtime", {
+        "corejs": 3,
+      }],
     ["@babel/plugin-syntax-dynamic-import"],
     ["@babel/plugin-proposal-optional-chaining"],
     ["import",
@@ -33,5 +33,5 @@ module.exports = {
         "style": true
       }
     ]
-  ]
+  ].filter(item => !!item)
 };
