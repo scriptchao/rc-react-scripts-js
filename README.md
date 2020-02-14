@@ -1,1 +1,12 @@
 ## quick-js-start
+[![Build Status](https://img.shields.io/travis/com/scriptchao/quick-js-start/master?logo=travis)](https://travis-ci.com/scriptchao/quick-js-start)
+[![Codecov branch](https://img.shields.io/codecov/c/github/scriptchao/quick-js-start/master?logo=codecov)](https://codecov.io/gh/scriptchao/quick-js-start)
+![](https://img.shields.io/github/license/scriptchao/quick-js-start?logo=github)
+![](https://img.shields.io/github/languages/top/scriptchao/quick-js-start?logo=github)
+![](https://img.shields.io/github/languages/count/scriptchao/quick-js-start?logo=github)
+![](https://img.shields.io/github/languages/code-size/scriptchao/quick-js-start?logo=github)
+![](https://img.shields.io/github/repo-size/scriptchao/quick-js-start?logo=github)
+![](https://img.shields.io/github/forks/scriptchao/quick-js-start?logo=github&style=social)
+![](https://img.shields.io/github/stars/scriptchao/quick-js-start?logo=github&style=social)
+![](https://img.shields.io/github/watchers/scriptchao/quick-js-start?logo=github&style=social)
+![](https://img.shields.io/github/commit-activity/m/scriptchao/quick-js-start?logo=github)
