@@ -8,7 +8,7 @@ cache:
 
 # Build Lifecycle
 install:
-  - yarn install
+  - npm install
 
 script:
   - npm run codecov
